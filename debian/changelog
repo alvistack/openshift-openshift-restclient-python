@@ -1,0 +1,5 @@
+python-openshift (100:0.13.0-1) UNRELEASED; urgency=medium
+
+  * https://github.com/openshift/openshift-restclient-python/releases/tag/v0.13.0
+
+ -- Wong Hoi Sing Edison <hswong3i@gmail.com>  Sat, 05 Feb 2022 09:23:34 +0800
