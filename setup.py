@@ -48,10 +48,6 @@ setup(
     keywords=["Swagger", "OpenAPI", "Kubernetes", "OpenShift"],
     install_requires=extract_requirements('requirements.txt'),
     packages=find_packages(include='openshift.*'),
-    include_package_data=True,
-    data_files=[
-        ('requirements.txt', ['requirements.txt'])
-    ],
     long_description='Python client for OpenShift http://openshift.redhat.com/',
     classifiers=[
         "Development Status :: %s" % DEVELOPMENT_STATUS,
@@ -61,10 +57,11 @@ setup(
         "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 2",
-        "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.5",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
     ],
     entry_points={
         'console_scripts': ['openshift-ansible-gen = openshift.ansiblegen.cli:commandline']
