@@ -1,0 +1,3 @@
+python-openshift source: file-without-copyright-information
+python-openshift source: no-debian-changes
+python-openshift source: source-package-encodes-python-version

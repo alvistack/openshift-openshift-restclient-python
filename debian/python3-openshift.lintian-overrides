@@ -1,0 +1,5 @@
+python3-openshift: copyright-without-copyright-notice
+python3-openshift: initial-upload-closes-no-bugs
+python3-openshift: no-manual-page
+python3-openshift: package-installs-python-pycache-dir
+python3-openshift: zero-byte-file-in-doc-directory
